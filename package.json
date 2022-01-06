@@ -15,7 +15,7 @@
     "skip-taskcluster": "node -e \"process.exit(!('TASK_ID' in process.env))\""
   },
   "devDependencies": {
-    "@mozilla/rally": "^0.6.0",
+    "@mozilla/rally": "^0.7.1",
     "@mozilla/web-science": "^0.4.0",
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-html": "^0.2.4",
