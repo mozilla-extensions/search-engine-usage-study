@@ -1,6 +1,6 @@
 {
   "name": "search_engine_usage_study",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "build": "rollup -c && web-ext --config=web-ext-config.js build --overwrite-dest && mv web-ext-artifacts/*.zip web-ext-artifacts/search_engine_usage_study.xpi",
     "dev": "rollup -c --config-enable-developer-mode",

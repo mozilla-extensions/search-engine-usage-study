@@ -3,7 +3,7 @@
   "author": "Kartikeya Kandula",
   "manifest_version": 2,
   "name": "Search Engine Usage and Result Quality Study",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage_url": "https://github.com/mozilla-ion/search-engine-usage-study",
   "applications": {
     "gecko": {
@@ -22,22 +22,7 @@
     "webNavigation",
     "history"
   ],
-  "experiment_apis": {
-    "experimental": {
-      "schema": "./experimental/schema.json",
-      "parent": {
-        "scopes": [
-          "addon_parent"
-        ],
-        "script": "./experimental/api.js",
-        "paths": [
-          [
-            "experimental"
-          ]
-        ]
-      }
-    }
-  },
+
   "background": {
     "scripts": [
       "dist/background.js"

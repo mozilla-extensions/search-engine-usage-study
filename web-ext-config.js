@@ -31,5 +31,14 @@ module.exports = {
     "rollup.config.*",
     "web-ext-config.js",
     "public/**/*.map",
+    "schemas",
+    "taskcluster",
+    "searchEngineQA.md",
+    "tsconfig.json",
+    // NOTE: re-enable these when the full functionality is available
+    "openSearch",
+    "experimental",
+    "dist/content-scripts",
+    "dist/pages",
   ],
 };
